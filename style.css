@@ -1,0 +1,195 @@
+/*
+https://cssgradient.io
+ */
+.canvas{
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.virusBody{
+    z-index: 0;
+    height: 300px;
+    width: 300px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,60,8,1) 35%, rgba(250,0,255,1) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bodyCenter{
+    z-index:20;
+    height:10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#lineShadow1{
+    background: rgb(200,13,9);
+    background: linear-gradient(90deg, rgba(200,13,9,1) 25%, rgba(82,3,76,1) 94%);
+}
+#lineShadowLeft1{
+    background: rgb(200,13,9);
+    background: linear-gradient(90deg, rgba(200,13,9,1) 25%, rgba(82,3,76,1) 94%);
+}
+#bubbleShadowLeft{
+    background: rgb(241,8,8);
+    background: linear-gradient(180deg, rgba(241,8,8,1) 24%, rgba(159,8,111,1) 75%);
+}
+#bubbleShadow2{
+    background: rgb(241,8,8);
+    background: linear-gradient(310deg, rgba(241,8,8,1) 24%, rgba(159,8,111,1) 75%);
+}
+#bubbleShadow3{
+    background: rgb(241,8,8);
+    background: linear-gradient(230deg, rgba(241,8,8,1) 24%, rgba(159,8,111,1) 75%);
+}
+
+#bubbleShadowLeft1{
+    background: rgb(241,8,8);
+    background: linear-gradient(54deg, rgba(241,8,8,1) 24%, rgba(159,8,111,1) 75%);
+}
+.virusExtremities1{
+    position: relative;
+    transform: rotate(-40deg);
+    z-index:10;
+    bottom: 50px;
+}
+.virusExtremities2{
+    position: relative;
+    top: 287px;
+    left:330px;
+    transform: rotate(45deg);
+    z-index:10;
+}
+.virusExtremities3{
+    position: relative;
+    top: 312px;
+    right:330px;
+    transform: rotate(225deg);
+    z-index:10;
+}
+.virusExtremities4{
+    position: relative;
+    top: 75px;
+    right:240px;
+    transform: rotate(270deg);
+    z-index:10;
+}
+.virusExtremities5{
+    position: relative;
+    top: 525px;
+    left:260px;
+    transform: rotate(90deg);
+    z-index:10;
+}
+.virusExtremities6{
+    position: relative;
+    top:320px;
+    left: 190px;
+}
+.virusExtremities7{
+    position: relative;
+    top: 650px;
+    left:-58px;
+    transform: rotate(150deg);
+    z-index:10;
+}
+.virusExtremities8{
+    position: relative;
+    z-index:10;
+    left:225px;
+    top: 90px;
+}
+.virusExtremities9{
+    position: relative;
+    z-index:10;
+    left:50px;
+    top: 610px;
+    transform: rotate(125deg);
+}
+.virusExtremities10{
+    position: relative;
+    z-index:10;
+    left:260px;
+    top: 420px;
+    transform: rotate(63deg);
+}
+.virusExtremities11{
+    position: relative;
+    z-index:10;
+    left:-257px;
+    top: 480px;
+    transform: rotate(-171deg);
+}
+.virusExtremities12{
+    position: relative;
+    z-index:10;
+    left:-35px;
+    top: 22px;
+    transform: rotate(-60deg);
+}
+.virusExtremities13{
+    position: relative;
+    z-index:10;
+    left:110px;
+    top: 65px;
+    transform: rotate(-60deg);
+}
+#shorLine1{
+    height: 70px;
+    width: 10px;
+}
+#shortLine2{
+    height: 80px;
+    width: 10px;
+}
+#shortLine3{
+    height: 80px;
+    width: 10px;
+}
+#shortLine4{
+    height: 80px;
+    width: 10px;
+}
+
+.line{
+    height: 120px;
+    width: 10px;
+    border-radius: 25px;
+    background: rgb(200,13,9);
+    background: linear-gradient(90deg, rgba(200,13,9,1) 25%, rgba(82,3,76,1) 94%);
+    position: absolute;
+    top: 10px;
+    left:20px;
+}
+.bubble{
+    z-index:1;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(241,8,26);
+    background: linear-gradient(270deg, rgba(241,8,26,1) 40%, rgba(106,7,90,1) 99%);
+    position: absolute;
+    left:5px;
+}
+.bigBubble{
+    height: 70px;
+    width: 70px;
+    left: -10px;
+    z-index:1;
+    border-radius: 50%;
+    background: rgb(241,8,26);
+    background: linear-gradient(270deg, rgba(241,8,26,1) 40%, rgba(106,7,90,1) 99%);
+    position: absolute;
+}
